@@ -1,0 +1,168 @@
+﻿<Window x:Class="Wpf_contract.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_contract"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="846" Width="872">
+    <Grid Margin="0,0,2,-50">
+        <Label Content="Город" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="21"/>
+        <Label Content="День" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Height="21"/>
+        <Label Content="Месяц" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Height="21"/>
+        <Label Content="Год" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" Height="21" Width="36"/>
+        <Label Content="ФИО продавца" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" Height="21" Width="92"/>
+        <Label Content="Дата рождения продавца" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="10,129,0,0" VerticalAlignment="Top" Height="21" Width="143"/>
+        <Label Content="Адрес продавца" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="10,154,0,0" VerticalAlignment="Top" Height="21"/>
+        <Label Content="№ Паспорта продавца" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="10,178,0,0" VerticalAlignment="Top" Height="21" Width="133"/>
+        <Label Content="Выдан" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="10,201,0,0" VerticalAlignment="Top" Height="21" Width="133"/>
+        <Label Content="ФИО покупателя" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top" Height="21" Width="102"/>
+        <Label Content="Дата рождения покупателя" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="10,249,0,0" VerticalAlignment="Top" Height="21"/>
+        <Label Content="Адрес покупателя" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="286,10,0,0" VerticalAlignment="Top" Height="21" Width="150"/>
+        <Label Content="№ Паспорта покупателя" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="286,32,0,0" VerticalAlignment="Top" Height="21" Width="150"/>
+        <Label Content="Выдан" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="286,57,0,0" VerticalAlignment="Top" Height="21" Width="150"/>
+        <Label Content="Марка, модель ТС" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="286,81,0,0" VerticalAlignment="Top" Height="21" Width="150"/>
+        <Label Content="Категория ТС" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="286,104,0,0" VerticalAlignment="Top" Height="21" Width="150"/>
+        <Label Content="Тип ТС по ПТС" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="286,128,0,0" VerticalAlignment="Top" Height="21" Width="150"/>
+        <Label Content="Регистрационный номер" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="286,153,0,0" VerticalAlignment="Top" Height="21" Width="150"/>
+        <Label Content="номер (VIN)" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="286,177,0,0" VerticalAlignment="Top" Height="21" Width="102"/>
+        <Label Content="Год выпуска" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="286,201,0,0" VerticalAlignment="Top" Height="21" Width="102"/>
+        <Label Content="Двигатель" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="286,224,0,0" VerticalAlignment="Top" Height="21" Width="102"/>
+        <Label Content="Шасси" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="286,248,0,0" VerticalAlignment="Top" Height="21" Width="102"/>
+        <Label Content="Кузов" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="571,9,0,0" VerticalAlignment="Top" Height="21" Width="102"/>
+        <Label Content="Цвет" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="571,32,0,0" VerticalAlignment="Top" Height="21" Width="102"/>
+        <Label Content="Серия ПТС" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="571,57,0,0" VerticalAlignment="Top" Height="21" Width="102"/>
+        <Label Content="Номер ПТС" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="571,80,0,0" VerticalAlignment="Top" Height="21" Width="102"/>
+        <Label Content="Дата выдачи" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="571,104,0,0" VerticalAlignment="Top" Height="21" Width="102"/>
+        <Label Content="Серия свидетельства" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="571,128,0,0" VerticalAlignment="Top" Height="21" Width="120"/>
+        <Label Content="Номер свидетельства" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="571,152,0,0" VerticalAlignment="Top" Height="21" Width="120"/>
+        <Label Content="Дата выдачи" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="571,176,0,0" VerticalAlignment="Top" Height="21" Width="102"/>
+        <Label Content="Стоимость ТС" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="571,200,0,0" VerticalAlignment="Top" Height="21" Width="102"/>
+        <Label Content="Валюта" Padding="0 0 0 0" HorizontalAlignment="Left" Margin="571,225,0,0" VerticalAlignment="Top" Height="21" Width="102"/>
+        <TextBox Name="textBoxSity" HorizontalAlignment="Left" Height="23" Margin="161,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxDay" HorizontalAlignment="Left" Height="23" Margin="161,32,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxMonth" FontFamily="Time New Roman" HorizontalAlignment="Left" Height="23" Margin="161,56,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxYear" HorizontalAlignment="Left" Height="23" Margin="161,80,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxSellerName" HorizontalAlignment="Left" Height="23" Margin="161,104,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxSellerDate_of_Birth" HorizontalAlignment="Left" Height="23" Margin="161,128,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxSellerAdress" HorizontalAlignment="Left" Height="23" Margin="161,152,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxSellerPassportNum" HorizontalAlignment="Left" Height="23" Margin="161,176,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxSellerPassportIssued" HorizontalAlignment="Left" Height="23" Margin="161,200,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxCustomerName" HorizontalAlignment="Left" Height="23" Margin="161,224,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxCustomerDate_of_Birth" HorizontalAlignment="Left" Height="23" Margin="161,248,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxCustomerAdress" HorizontalAlignment="Left" Height="23" Margin="446,7,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxCustomerPassportNum" HorizontalAlignment="Left" Height="23" Margin="446,31,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxCustomerPassportIssued" HorizontalAlignment="Left" Height="23" Margin="446,55,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxCarModel" HorizontalAlignment="Left" Height="23" Margin="446,79,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxCarCategory" HorizontalAlignment="Left" Height="23" Margin="446,103,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxCarType" HorizontalAlignment="Left" Height="23" Margin="446,127,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxCarRegNumber" HorizontalAlignment="Left" Height="23" Margin="446,151,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxCarVinNumber" HorizontalAlignment="Left" Height="23" Margin="446,175,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxCarAge" HorizontalAlignment="Left" Height="23" Margin="446,199,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxCarEngine" HorizontalAlignment="Left" Height="23" Margin="446,223,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxCarChassis" HorizontalAlignment="Left" Height="23" Margin="446,247,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxCarBody" HorizontalAlignment="Left" Height="23" Margin="732,7,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxCarCollor" HorizontalAlignment="Left" Height="23" Margin="732,31,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxPTSser" HorizontalAlignment="Left" Height="23" Margin="732,55,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxPTSnum" HorizontalAlignment="Left" Height="23" Margin="732,79,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxPTSIssued" HorizontalAlignment="Left" Height="23" Margin="732,103,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxSvSer" HorizontalAlignment="Left" Height="23" Margin="732,127,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxSvNum" HorizontalAlignment="Left" Height="23" Margin="732,151,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxSvIssued" HorizontalAlignment="Left" Height="23" Margin="732,175,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="textBoxCarPrice" HorizontalAlignment="Left" Height="23" Margin="732,199,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBoxСurrency" HorizontalAlignment="Left" Height="23" Margin="732,224,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+        <Button Content="Распечатать" HorizontalAlignment="Left" Margin="732,251,0,0" VerticalAlignment="Top" Width="120" Click="Print"/>
+        <RichTextBox Name="richTextBox1" Margin="0,276,10,10">
+            <FlowDocument>
+                <Paragraph Margin="300 0 10 0" FontFamily="Time New Roman" FontSize="18">
+                    <Bold>Договор купли-продажи автомобиля</Bold>
+                </Paragraph>
+                <Paragraph Margin="200 0 10 0" FontFamily="Time New Roman" FontSize="18">
+                    <Bold>(автомототранспортного средства, прицепа, номерного агрегата)</Bold>
+                </Paragraph >
+                <Paragraph Margin="50 20 0 0">г.
+                    <TextBlock Name="textBlockSity" FontFamily="Time New Roman" Margin="10 0 10 0" Padding="0,0,500,0" Text="{Binding ElementName=textBoxSity, Path=Text}"></TextBlock> "
+                    <TextBlock Name="textBlockDay"  FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxDay, Path=Text}"></TextBlock> "
+                    <TextBlock Name="textBlockMonth" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxMonth, Path=Text}"></TextBlock>
+                    <TextBlock Name="textBlockYear" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxYear, Path=Text}"></TextBlock> г.
+                </Paragraph>
+                <Paragraph Margin="70 0 10 0" FontFamily="Time New Roman" FontSize="8">
+                    <Bold>место заключения договора</Bold>
+                </Paragraph >
+                <Paragraph Margin="50 40 0 0" FontFamily="Time New Roman">Мы, Продавец
+                    <TextBlock Name="textBlockSellerName" FontFamily="Time New Roman" Margin="30 0 30 0" Text="{Binding ElementName=textBoxSellerName, Path=Text}"></TextBlock> дата рождения -
+                    <TextBlock Name="textBlockSellerDate_of_Birth" FontFamily="Time New Roman" Margin="20 0 20 0" Text="{Binding ElementName=textBoxSellerDate_of_Birth, Path=Text}"></TextBlock> зарегистрированный по адресу
+                    <TextBlock Name="textBlockSellerAdress" FontFamily="Time New Roman" Margin="0 0 20 0" Text="{Binding ElementName=textBoxSellerAdress, Path=Text}"></TextBlock> паспорт №
+                    <TextBlock Name="textBlockSellerPassportNum" FontFamily="Time New Roman" Margin="20 0 20 0" Text="{Binding ElementName=textBoxSellerPassportNum, Path=Text}"></TextBlock> выдан
+                    <TextBlock Name="textBlockSellerPassportIssued" FontFamily="Time New Roman" Margin="20 0 20 0" Text="{Binding ElementName=textBoxSellerPassportIssued, Path=Text}"></TextBlock>
+                </Paragraph>
+                <Paragraph Margin="50 0 0 0" FontFamily="Time New Roman">и Покупатель
+                    <TextBlock Name="textBlockCustomerName" FontFamily="Time New Roman" Margin="30 0 30 0" Text="{Binding ElementName=textBoxCustomerName, Path=Text}"></TextBlock> дата рождения -
+                    <TextBlock Name="textBlockCustomerDate_of_Birth" FontFamily="Time New Roman" Margin="20 0 20 0" Text="{Binding ElementName=textBoxCustomerDate_of_Birth, Path=Text}"></TextBlock> зарегистрированный по адресу
+                    <TextBlock Name="textBlockCustomerAdress" FontFamily="Time New Roman" Margin="0 0 20 0" Text="{Binding ElementName=textBoxCustomerAdress, Path=Text}"></TextBlock> паспорт №
+                    <TextBlock Name="textBlockCustomerPassportNum" FontFamily="Time New Roman" Margin="20 0 20 0" Text="{Binding ElementName=textBoxCustomerPassportNum, Path=Text}"></TextBlock> выдан
+                    <TextBlock Name="textBlockCustomerPassportIssued" FontFamily="Time New Roman" Margin="20 0 20 0" Text="{Binding ElementName=textBoxCustomerPassportIssued, Path=Text}"></TextBlock> заключили настоящий договор о нижеследующем:
+                </Paragraph>
+                <Paragraph Margin="50 20 0 0" FontFamily="Time New Roman">
+                    <Bold FontWeight="Normal">
+                        1. Продавец продал, а Покупатель купил автомобиль (мотоцикл, прицеп, номерной агрегат):
+                    </Bold>
+                </Paragraph>
+                <Paragraph Margin="50 0 0 0">Марка, модель
+                    <TextBlock Name="textBlockCarModel" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxCarModel, Path=Text}"></TextBlock> Категория ТС
+                    <TextBlock Name="textBlockCarCategory" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxCarCategory, Path=Text}"></TextBlock> Тип транспортного средства по ПТС
+                    <TextBlock Name="textBlockCarType" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxCarType, Path=Text}"></TextBlock> Регистрационный номер
+                    <TextBlock Name="textBlockCarRegNumber" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxCarRegNumber, Path=Text}"></TextBlock> Идентификационный номер (VIN)
+                    <TextBlock Name="textBlockCarVinNumber" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxCarVinNumber, Path=Text}"></TextBlock> Год выпуска
+                    <TextBlock Name="textBlockCarAge" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxCarAge, Path=Text}"></TextBlock> Двигатель
+                    <TextBlock Name="textBlockCarEngine" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxCarEngine, Path=Text}"></TextBlock> Шасси
+                    <TextBlock Name="textBlockCarChassis" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxCarChassis, Path=Text}"></TextBlock> Кузов
+                    <TextBlock Name="textBlockCarBody" FontFamily="Time New Roman" Margin="0 0 10 0" Text="{Binding ElementName=textBoxCarBody, Path=Text}"></TextBlock> Цвет
+                </Paragraph>
+                <Paragraph Margin="50 20 0 0" FontFamily="Time New Roman">2. Указанный автомобиль принадлежит  Продавцу на основании паспорта  транспортного средства серии:
+                    <TextBlock Name="textBlockPTSser" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxPTSser, Path=Text}"></TextBlock> №
+                    <TextBlock Name="textBlockPTSnum" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxPTSnum, Path=Text}"></TextBlock> выданного
+                    <TextBlock Name="textBlockPTSIssued" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxPTSIssued, Path=Text}"></TextBlock> и свидетельства о регистрации серии:
+                    <TextBlock Name="textBlockSvSer" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxSvSer, Path=Text}"></TextBlock> №
+                    <TextBlock Name="textBlockSvNum" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxSvNum, Path=Text}"></TextBlock> выданного
+                    <TextBlock Name="textBlockSvIssued" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxSvIssued, Path=Text}"></TextBlock>
+                </Paragraph>
+                <Paragraph Margin="50 20 0 0" FontFamily="Time New Roman">3. За проданный автомобиль (ТС) Продавец деньги в сумме
+                    <TextBlock Name="textBlockCarPrice" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxCarPrice, Path=Text}"></TextBlock>
+                    <TextBlock Name="textBlockСurrency" FontFamily="Time New Roman" Margin="10 0 10 0" Text="{Binding ElementName=textBoxСurrency, Path=Text}"></TextBlock> получил полностью
+                </Paragraph>
+                <Paragraph Margin="50 20 0 0" FontFamily="Time New Roman">4. Продавец обязуется передать автомобиль (автомототранспортного средства, прицепа, номерного агрегата), указанный в настоящем 
+                    договоре Покупателю. До заключения настоящего договора ТС никому не продано, не заложено, в споре и под арестом не состоит. 
+                    Покупатель обязуется в течение 10 дней со дня подписания договора перерегистрировать автомобиль (автомототранспортное средство, прицеп, номерной агрегат) на себя. Настоящий договор 
+                    составлен в трех экземплярах - по одному для каждой из сторон и для оформления в ГИБДД
+                </Paragraph>
+                <Paragraph Margin="150 20 0 0" FontFamily="Time New Roman">
+                    <Bold>Продавец
+                        <TextBlock Name="Space" Padding="200,0,220,0" ></TextBlock>
+                        Покупатель
+                    </Bold>
+                </Paragraph>
+                <Paragraph Margin="50 10 0 0" FontFamily="Time New Roman">
+                    <Bold FontWeight="Normal">Деньги  получил, транспортное  средство передал
+                        <TextBlock Name="Space2" Padding="100,0,100,0" ></TextBlock>
+                        Деньги  передал, транспортное средство получил.
+                    </Bold>
+                </Paragraph>
+                <Paragraph Margin="50 10 0 0" FontFamily="Time New Roman">
+                    <Bold FontWeight="Normal">_______________________________________________________
+                        <TextBlock Name="Space3" Padding="100,0,100,0" ></TextBlock>
+                        _______________________________________________________
+                    </Bold>
+                </Paragraph>
+                <Paragraph Margin="130 0 0 0" FontFamily="Time New Roman">
+                    <Bold FontWeight="Normal" FontSize="8">(подпись и ФИО прописью)
+                        <TextBlock Name="Space4" Padding="200,0,200,0" ></TextBlock>
+                        (подпись и ФИО прописью)
+                    </Bold>
+                </Paragraph>
+
+
+            </FlowDocument>
+        </RichTextBox>
+    </Grid>
+</Window>
